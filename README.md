@@ -1,0 +1,2 @@
+# parserpdf2
+python版本解析发票pdf工具，python版本适合解析滴滴版本的pdf发票
