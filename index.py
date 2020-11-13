@@ -14,10 +14,10 @@ for fname in file_list:
             print(p)
             print(content)
             print('===============')
-            # if content.find('电子报销凭证序号') > 0:
-            #     print(fname)
-            #     dealPDF2(p,content)
-            # else:
-            #     dealPDF1(p,content)
+            if content.find('电子报销凭证序号') > 0:
+                print(fname)
+                dealPDF2(p,content)
+            else:
+                dealPDF1(p,content)
 
 
